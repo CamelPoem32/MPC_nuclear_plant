@@ -71,3 +71,10 @@ Optimisation of cost funtion was done using CasADI in case of system constraints
 
 ## Results
 
+![1](photo_2025-05-29_14-42-16.jpg)
+
+Fuel temperature
+
+![1](photo_2025-05-29_14-42-19.jpg)
+
+without actual temperature
