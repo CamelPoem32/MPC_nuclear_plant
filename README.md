@@ -14,27 +14,24 @@ This project implements the mathematical model, which captures:
 ## Key Features
 - State Vector Modeling: 
   
-  x = $[P, T_f, C, E, T_c]^T$
+  x = $[P, T_f, C, E,]^T$
 
   Where:
   - $P$ = Core power (MW)
   - $T_f$ = Average fuel temperature (°C)
   - $C$ = Delayed-neutron precursor concentration
   - $E$ = Burn-up/energy tally (MW-s)
-  - $T_c$ = Hot-leg coolant temperature (°C)
 
 - Dynamics Equations:
   - Power evolution with reactivity feedback
   - Fuel-coolant heat transfer
   - Delayed neutron kinetics
-  - Coolant temperature dynamics
 
 - Safety Constraints:
   - Fuel temperature limit
   - Rod-drive ramp rate limit
   - Maximum licensed burn-up
   - Power ramp-rate limit
-  ```markdown
 
 | Constraint ID | Mathematical Expression | Description | Units |
 |--------------|-------------------------|-------------|-------|
