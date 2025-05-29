@@ -73,8 +73,8 @@ Optimisation of cost funtion was done using CasADI in case of system constraints
 
 ![1](photo_2025-05-29_14-42-16.jpg)
 
-Fuel temperature
+Fuel temperature causes infinity power
 
 ![1](photo_2025-05-29_14-42-19.jpg)
 
-without actual temperature
+without temperature (in this case converges)
