@@ -47,7 +47,9 @@ $$ \mathbf{x} = \begin{bmatrix}
 P, & T_f, & C, & E, & \rho
 \end{bmatrix}^T $$
 
-as temperature of collant became constant
+as temperature of collant became constant.
+
+Controll input is change of reactivity. In real life it is controlled by moovig the rods inside the reactor - in this case. it is bounded. Other constraints are crutial in terms of safety (Plant accident is truly disaster)
 
  ## MPC
 
@@ -66,4 +68,6 @@ Cost function is used to optinise the behaviour:
 ![cost_t](https://latex.codecogs.com/svg.image?\ell_N=500\cdot(P_N-P_{\text{ref},N})^2&space;)
 
 Optimisation of cost funtion was done using CasADI in case of system constraints
+
+## Results
 
