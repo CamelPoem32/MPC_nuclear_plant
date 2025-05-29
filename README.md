@@ -3,8 +3,6 @@
 
 # Nuclear Reactor Dynamics Simulator (NRDS)
 
-A MATLAB/Python-based simulation tool for modeling and analyzing the dynamic behavior of nuclear reactors, with a focus on safety constraints and non-linear feedback effects.
-
 ## Project Overview
 This project implements the mathematical model, which captures:
 - Core power dynamics
@@ -32,13 +30,11 @@ This project implements the mathematical model, which captures:
   - Coolant temperature dynamics
 
 - Safety Constraints:
-  - Fuel temperature limit (≤ 800°C)
+  - Fuel temperature limit
   - Rod-drive ramp rate limit
   - Maximum licensed burn-up
   - Power ramp-rate limit
   ```markdown
-
-## Safety Constraints Table
 
 | Constraint ID | Mathematical Expression | Description | Units |
 |--------------|-------------------------|-------------|-------|
