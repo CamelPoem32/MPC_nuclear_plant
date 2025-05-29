@@ -8,6 +8,7 @@ This project implements the:
 - Burnup accumulation
 - Operational safety constraints 
 
+key idea - controll output power of rhe plant to meet needs of consumers
 ## Key Features
 
 ### State Vector
