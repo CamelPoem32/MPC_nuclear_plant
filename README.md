@@ -62,7 +62,7 @@ Cost function is used to optinise the behaviour:
 ![cost](https://latex.codecogs.com/svg.image?$$J=\sum_{k=0}^{N-1}\ell_k&plus;\ell_N$$)
 
 ### Stage Cost
-![cost_s](https://latex.codecogs.com/svg.image?\[\ell_k=100\cdot(P_k-P_{\text{ref}})^2&plus;0.1\cdot&space;u_k^2&plus;100000\cdot\left[\max\left(0,T_{f,k}-T_{\max}\right)\right]^2\]))
+![cost_s](https://latex.codecogs.com/svg.image?\ell_k=100\cdot(P_k-P_{\text{ref},k})^2&plus;0.1\cdot&space;u_k^2&plus;100000\cdot\left[\max\left(0,T_{f,k}-T_{\max}\right)\right]^2&space;)
 
 ### Terminal Cost
 ![cost_t](https://latex.codecogs.com/svg.image?\ell_N=500\cdot(P_N-P_{\text{ref},N})^2&space;)
